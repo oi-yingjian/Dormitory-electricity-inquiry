@@ -1,7 +1,6 @@
-# Dormitory-electricity-inquiry
-### 中山大学南方学院
-### 更名--广州南方学院
-### 使用云函数来实现对宿舍电量的自动查询
+# 中山大学南方学院（广州南方学院）
+## 使用云函数来实现对宿舍电量的自动查询
+### Dormitory-electricity-inquiry
 
 ### URL：
 
