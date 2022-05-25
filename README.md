@@ -49,7 +49,7 @@ def push_wechat(txt):
 def main():
     url = 'http://nfu.zhihuianxin.net/electric/getData/getReserveAM'
     params = {
-        # 宿舍 ID，从上面URL自行获取
+        # 宿舍 ID，从最上面URL自行获取
         'roomId': 3135,
     }
     res = requests.get(url,params=params)
