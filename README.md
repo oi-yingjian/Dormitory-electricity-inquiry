@@ -1,10 +1,9 @@
 # 中山大学南方学院（广州南方学院）
 ## 使用云函数来实现对宿舍电量的自动查询
-### Dormitory-electricity-inquiry
 
 ### URL：
 http://nfu.zhihuianxin.net/electric
-选择好对应宿舍， F12找到'roomId'这个值
+### 选择好对应宿舍， F12找到'roomId'这个值
 
 
 
