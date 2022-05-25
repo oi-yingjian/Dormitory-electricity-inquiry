@@ -1,5 +1,6 @@
 # Dormitory-electricity-inquiry
-### （云函数实现对宿舍电量的自动查询）中山大学南方学院
+### 中山大学南方学院
+### 使用云函数来实现对宿舍电量的自动查询
 
 ### URL：
 
@@ -7,7 +8,7 @@ http://nfu.zhihuianxin.net/electric
 
 
 
-### 云函数：
+### 云函数代码：
 
 ```python
 # -*- coding: utf-8 -*-
