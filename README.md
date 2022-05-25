@@ -3,7 +3,7 @@
 
 ### URL：
 
-http://nfu.zhihuianxin.net/electric/getData/getReserveAM
+http://nfu.zhihuianxin.net/electric
 
 
 
