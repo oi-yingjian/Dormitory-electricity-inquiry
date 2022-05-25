@@ -3,8 +3,8 @@
 ### Dormitory-electricity-inquiry
 
 ### URL：
-
 http://nfu.zhihuianxin.net/electric
+选择好对应宿舍， F12找到'roomId'这个值
 
 
 
@@ -51,7 +51,7 @@ def main():
     url = 'http://nfu.zhihuianxin.net/electric/getData/getReserveAM'
     params = {
         # 宿舍 ID，从最上面URL自行获取
-        'roomId': 3135,
+        'roomId': ,
     }
     res = requests.get(url,params=params)
     data = json.loads(res.text)
@@ -59,7 +59,7 @@ def main():
     if (power) < 15.00:
         push_txt = (datetime.datetime.utcnow() + datetime.timedelta(hours=8)).isoformat(sep=' ', timespec='seconds')
         # 推送消息，自行更改
-        push_txt += "\n东31-428当前电量为【%s】"% (power)
+        push_txt += "\n东xx-xxx当前电量为【%s】"% (power)
         push_wechat(push_txt)
         print(power)
     else:
